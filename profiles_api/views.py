@@ -110,7 +110,7 @@ class HelloViewSet(viewsets.ViewSet):
 
 
 class UserProfileViewSet(viewsets.ModelViewSet):
-    """Handle creating, creating and updating profiles"""
+    """Handle creating, creating and updating profiles.!"""
     serializer_class = serializers.UserProfileSerializer
     queryset = models.UserProfile.objects.all()
     authentication_classes = (TokenAuthentication,)
